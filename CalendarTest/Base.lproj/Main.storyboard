@@ -41,9 +41,6 @@
                                                     <rect key="frame" x="8" y="8" width="73" height="73"/>
                                                     <color key="backgroundColor" red="0.93190922687963118" green="0.90563266823415001" blue="0.91048351561094221" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="tintColor" red="0.44983089459691344" green="0.58317500467976624" blue="0.91980725526809692" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" secondItem="0Hg-Li-Kkw" secondAttribute="height" multiplier="1:1" id="WXp-2Z-huM"/>
-                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dateLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLS-4i-Dxs">
                                                     <rect key="frame" x="6.5" y="34" width="76" height="21"/>

@@ -37,13 +37,15 @@ class ViewController: UIViewController, JTAppleCalendarViewDataSource, JTAppleCa
         calendar.scrollingMode = .stopAtEachCalendarFrame
         calendar.scrollDirection = .horizontal
         
+        calendar.selectDates([Date()])
+        calendar.scrollToDate(Date())
     }
     
     func configureCalendar(_ calendar: JTAppleCalendarView) -> ConfigurationParameters {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy MM dd"
-        let startDate = formatter.date(from: "2020 12 01")!
-        let endDate = Date()
+        let startDate = formatter.date(from: "2018 12 01")!
+        let endDate = Calendar.current.date(byAdding: .year, value: 2, to: Date()) ?? Date()
         return ConfigurationParameters(startDate: startDate,
                                        endDate: endDate,
                                        generateInDates: .forAllMonths,
